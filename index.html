@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notetaking</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="note">
+      <h2>Note Taking App</h2>
+      <div class="note-input">
+        <h3>Add a New Note:</h3>
+        <div class="note-wrapper">
+          <input type="text" id="note-title" placeholder="Tite of the note" />
+          <textarea
+            id="note-content"
+            rows="5"
+            placeholder="Write your note here"
+          ></textarea>
+          <button type="button" class="btn1" id="add-note-btn">
+            <span><i class="fas fa-plus"></i>Add Note</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="note-list">
+      <div class="note-item">
+        <h3>The title Goes Here</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
+          exercitationem harum similique eius, nulla quo nihil odit consequatur
+          voluptates, dolore dicta magni. Fuga tenetur accusamus qui corporis
+          laudantium. Pariatur, asperiores!
+        </p>
+        <button type="button" class="btn2 delete-note-btn">
+          <span><i class="fas fa-trash"></i> Remove</span>
+        </button>
+      </div>
+      <button type="button" class="btn2" id="delete-all-bn">
+        <span><i class="fas fa-trash"></i></span>Delete All
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

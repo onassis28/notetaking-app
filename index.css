@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;1,300&family=Space+Mono&display=swap");
+:root {
+  --bitersweet: #dd4242;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+body {
+  line-height: 2;
+  font-weight: 300;
+}
+
+.note {
+  max-width: 1080px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.note h2 {
+  font-size: 2.6rem;
+  text-align: center;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.note-input h3 {
+  color: #dd4242;
+}
+.note-wrapper {
+  margin: 0.7rem 0;
+  padding: 0.5rem 0;
+}
+#note-title,
+#note-content {
+  width: 100%;
+  border: 2px solid black;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 20px;
+}
+
+#note-content {
+  resize: none;
+}
+
+#note-title:focus,
+#note-content:focus {
+  color: blue;
+}
+
+.btn1 {
+  background: rgb(10, 228, 94);
+  border: 2px sold;
+  padding: 0.55rem 0.1rem;
+  width: 120px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn2 {
+  background: rgb(228, 17, 10);
+  border: 2px sold;
+  padding: 0.55rem 0.1rem;
+  width: 120px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.note-list {
+  margin: 2rem;
+  background: cornflowerblue;
+  padding: 2rem;
+  border-radius: 3px;
+}
+
+.note-item {
+  background: cornsilk;
+  margin: 1rem;
+  padding: 1.5rem;
+  border: 2px;
+  box-shadow: 0 0 7px 0 black;
+}
+
+.note-item h3 {
+  margin-bottom: 1rem;
+}
+
+.note-item p {
+  padding-bottom: 0.8rem;
+}
+
+.note-item .btn2 {
+    margin-top 0.8rem;
+    
+}
+
+@media(min-width:992px){
+    .note-list{
+        display: grid;
+        grid-template-columns: repeat(2, );
+    }
+}
+
+
