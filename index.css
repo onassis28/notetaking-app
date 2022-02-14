@@ -99,16 +99,15 @@ body {
   padding-bottom: 0.8rem;
 }
 
-.note-item .btn2 {
-    margin-top 0.8rem;
-    
+.note-item.btn2 {
+  margin-top: 1rem;
 }
 
-@media(min-width:992px){
-    .note-list{
-        display: grid;
-        grid-template-columns: repeat(2, );
-    }
+@media (min-width: 992px) {
+  .note-list {
+    display: grid;
+  }
 }
-
-
+.warning {
+  border-color: rgba(255, 111, 89, 0.8) !important;
+}
