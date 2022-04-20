@@ -57,7 +57,7 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 
 #note-title:focus,
 #note-content:focus {
-  color: blue;
+  color: rgb(11, 11, 15);
 }
 
 .btn1 {
@@ -65,7 +65,7 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
   border: 2px sold;
   padding: 0.55rem 0.1rem;
   width: 120px;
-  border-radius: 5px;
+  border-radius: 2rem;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
